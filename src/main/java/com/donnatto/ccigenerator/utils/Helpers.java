@@ -2,7 +2,7 @@ package com.donnatto.ccigenerator.utils;
 
 import com.donnatto.ccigenerator.model.AccountType;
 import com.donnatto.ccigenerator.model.Bank;
-import com.donnatto.ccigenerator.service.OfficeServiceImpl;
+import com.donnatto.ccigenerator.service.impl.OfficeServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

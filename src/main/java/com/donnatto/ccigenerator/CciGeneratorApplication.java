@@ -39,7 +39,7 @@ public class CciGeneratorApplication implements CommandLineRunner {
 
 			while (sc.hasNextLine()) {
 				line = sc.nextLine();
-				String cci = service.generateCCI(Bank.BCP2, AccountType.CTA_CORRIENTE, line);
+				String cci = service.generateCCI(Bank.BCP2, AccountType.AHORROS, line);
 				printWriter.println(line + " - CCI -> " + cci);
 			};
 
